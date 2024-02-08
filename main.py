@@ -70,8 +70,18 @@ print(data.head())
 # plt.axis("off")
 # plt.show()
 
-#analyzing relationships
-figure = px.scatter(data_frame = data, x="Impressions",
-                    y="Likes", size="Likes", trendline="ols", 
-                    title = "Relationship Between Likes and Impressions")
-figure.show()
+#analyzing relationship likes and impressions
+# figure = px.scatter(data_frame = data, x="Impressions",
+#                     y="Likes", size="Likes", trendline="ols", 
+#                     title = "Relationship Between Likes and Impressions")
+# figure.show()
+#clear linear relationship
+
+#analyzing relationship  number of comments and impressions
+# figure = px.scatter(data_frame = data, x="Impressions",
+#                     y="Comments", size="Comments", trendline="ols", 
+#                     title = "Relationship Between Comments and Total Impressions")
+# figure.show()
+# #no relationship between the two
+
+#
